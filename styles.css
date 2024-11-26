@@ -1,0 +1,114 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f9; /* Soft light background */
+    color: #4a4a4a; /* Dark gray text for better readability */
+}
+
+header {
+    background-color: #b39ddb; /* Light violet header */
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 3px solid #e0e0e0; /* Soft border for visual separation */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #7e57c2; /* Darker violet for hover effect */
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for content section */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Mild shadow for depth */
+    border-radius: 8px; /* Rounded corners for a smooth look */
+}
+
+h1 {
+    color: #7e57c2; /* Violet for main heading */
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+ul li strong {
+    color: #7e57c2; /* Violet for labels */
+}
+
+footer {
+    background-color: #7e57c2; /* Darker violet for footer */
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
